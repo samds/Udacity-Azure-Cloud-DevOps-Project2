@@ -30,7 +30,7 @@ Check my [Trello board](https://trello.com/b/5pq3f2Fz/udacity-azure-project-2) f
   cd Udacity-Azure-Cloud-DevOps-Project2
   ```
 
-  ![Git Clone Command Result](/assets/images/GitClone.png)
+  ![Git Clone Command Result](/assets/images/GitClone.PNG)
 
 - Build the code
 
@@ -41,7 +41,7 @@ Check my [Trello board](https://trello.com/b/5pq3f2Fz/udacity-azure-project-2) f
   ```
 
 - All tests shall pass
-  ![Lint & Test](/assets/images/makelinttest.png)
+  ![Lint & Test](/assets/images/makelinttest.PNG)
 
 - In the Cloud Shell, use `az webapp up` to create an App Service and initially deploy the app.
 
@@ -97,4 +97,4 @@ Check my [Trello board](https://trello.com/b/5pq3f2Fz/udacity-azure-project-2) f
 
 ## Demo
 
-<TODO: Add link Screencast on YouTube>
+[Check the demo on Youtube!](https://youtu.be/_H4POuC9ZGk)
