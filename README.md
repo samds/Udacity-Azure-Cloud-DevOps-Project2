@@ -43,6 +43,7 @@ Check my [Trello board](https://trello.com/b/5pq3f2Fz/udacity-azure-project-2) f
   ```
 
 - All tests shall pass
+
   ![Lint & Test](/assets/images/makelinttest.PNG)
 
 - In the Cloud Shell, use `az webapp up` to create an App Service and initially deploy the app.
@@ -61,9 +62,11 @@ Check my [Trello board](https://trello.com/b/5pq3f2Fz/udacity-azure-project-2) f
   ![Azure Yaml File](/assets/images/Yaml.PNG)
 
   You're now ready to run your pipeline!
+
   ![Azure Pipelines](/assets/images/AzurePipelines.PNG)
 
-- Run Azure App Service from Azure Pipelines automatic deployment
+- Run Azure App Service from Azure Pipelines automatic deployment.
+
   ![Azure Pipelines Successful Deployment](/assets/images/AzurePieplinesDeploy.PNG)
 
 - Run a prediction
@@ -89,7 +92,20 @@ Check my [Trello board](https://trello.com/b/5pq3f2Fz/udacity-azure-project-2) f
 
   ![WebApp Logs](/assets/images/webapplog.PNG)
 
-  >
+- We can do performance testing with locust. It is easy to install and run
+
+  ```bash
+  pip install locust
+  locust --host https://samuel-flask-sklearn.azurewebsites.net
+  ```
+
+  Then you should open `http://localhost:8089` in your web browser.
+
+  ![WebApp Logs](/assets/images/locust.PNG)
+
+  and finally do a test run
+
+  ![WebApp Logs](/assets/images//LocustResult.PNG)
 
 ## Enhancements
 
