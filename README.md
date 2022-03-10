@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/samds/Udacity-Azure-Cloud-DevOps-Project2/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/samds/Udacity-Azure-Cloud-DevOps-Project2/actions/workflows/pythonapp.yml)
+
 # Overview
 
 Use Github Actions to perform an initial **lint**, **test**, and **install** cycle for a Python-based machine learning application using the _Flask_ web framework.
